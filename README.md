@@ -58,3 +58,8 @@ iex> c "lib/myfile.ex"
 ```sh
 iex> r MyModule
 ```
+
+## References
+
+* [Elixir cheatsheet](https://devhints.io/elixir)
+* [Comprehensive guide](https://www.mitchellhanberg.com/the-comprehensive-guide-to-elixirs-for-comprehension/)
