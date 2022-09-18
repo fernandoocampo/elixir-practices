@@ -74,3 +74,11 @@ iex(1)> Flowing.try_do()
 i'm the after clause.
 "Got hello."
 ```
+
+str = "hello" \
+str |> length()   \      # → 5
+str |> codepoints() \    # → ["h", "e", "l", "l", "o"]
+str |> slice(2..-1)  \   # → "llo"
+str |> split(" ")   \    # → ["hello"]
+str |> capitalize()  \   # → "Hello"
+str |> match(regex) \
